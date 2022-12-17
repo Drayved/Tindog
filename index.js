@@ -25,7 +25,6 @@ let newDog = getNewDog()
 // buttons clicked
 
 function btnClicked(e){
-    
     if (!isLiked){
         newDog.clicked(e)
         render()
@@ -50,6 +49,7 @@ crossBtn.addEventListener("click", btnClicked)
 heartBtn.addEventListener("click", function(){
     document.querySelector(".liked").classList.remove('hidden')
 })
+
 crossBtn.addEventListener("click", function(){
     document.querySelector(".nope").classList.remove('hidden')
 })
