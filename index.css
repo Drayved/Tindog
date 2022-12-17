@@ -1,0 +1,139 @@
+body,
+html{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;  
+}
+
+.header-icon,
+.logo{
+    cursor: pointer;
+}
+
+
+.header-icon{
+    width: 34px;
+    height: 34px;  
+}
+
+.logo{
+    width: 84px;
+    height: 42px;
+}
+
+.profile-icon{
+    margin-right: 180px;
+}
+
+.chat-icon{
+    margin-left: 180px;
+}
+
+/* main content */
+
+main{
+    display: flex;
+    justify-content: center;  
+    margin: auto;
+    flex-direction: column;
+}
+
+.main-img-container{
+    height: 80%;
+    padding: 1rem;
+}
+
+.main-img{
+    width: 534px;
+    height:751.44px;
+    border-radius: 10px;
+}
+
+.img-text{
+    position: relative;
+    bottom:120px;
+    left: 20px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* bottom buttons */
+
+.bottom-section{
+    display: flex;
+}
+
+button{
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.bottom-btns{
+    width:5.6875rem;
+    height:5.6875rem;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px  rgb(222, 220, 220);
+    margin: 0 auto;
+}
+
+#heart-btn{
+    margin-left: 25px;
+}
+
+#cross-btn{
+    margin-right: 25px;
+}
+
+#heart-btn:hover,
+#heart-btn:active{
+    background-color: #DBFFF4;
+}
+
+#cross-btn:hover,
+#cross-btn:active{
+    background-color: #FFE7EF;
+}
+
+.swiped{
+    position: absolute;
+    transform: rotate(-40deg);
+}
+
+/* image text for buttons */
+
+.liked{
+    position: absolute;
+    color: #29D78A;
+    border: 5px solid #29D78A;
+    padding: 5px 10px;
+    font-size: 70px;
+    bottom:100px;
+    left: 230px;
+}
+
+.nope{
+    position: relative;
+    color:#F9655C;
+    border: 5px solid #F9655C;
+    font-size: 70px;
+    bottom:250px;
+    left: 250px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
